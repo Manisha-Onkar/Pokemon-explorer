@@ -1,0 +1,35 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    background-color: white;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .types {
+    margin-top: 0.5rem;
+  }
+  
+  .type {
+    display: inline-block;
+    margin: 2px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    /* background-color: rgb(214, 214, 55); */
+    background-color: #d87272;
+    color: white;
+    font-size: 0.79rem;
+  }
+  
+  /* Add type-specific color if needed later */
+  
